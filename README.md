@@ -1,1 +1,4 @@
-# Javascript_all
+## Javascript
+- All things related to JS.
+- Explained in concise comments.
+  
