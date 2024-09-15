@@ -10,7 +10,7 @@ function f1(){
 
     console.log(a);  // outputs 20
 }
- f1();
+ f1(); 
 
 {
     var c = 29;     // block scope(not available in var)
