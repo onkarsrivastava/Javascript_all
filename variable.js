@@ -13,13 +13,13 @@ function f1(){
  f1();
 
 {
-    var a  = 15;     // block scope(not available in var)
-
-    console.log(a);  // outputs 15
+    var c = 29;     // block scope(not available in var)
+    
+    console.log(c);  // outputs 29
 }
 
-console.log(a)      // outputs 15 as v ar doesn't allow block scope.
-                   //  the earlier value of 10 gets reassigned as 15.
+
+console.log(c);     // outputs 29 as block scope not allowed
 
 console.log(b);   // var can be hoisted.
 var b = 40;
